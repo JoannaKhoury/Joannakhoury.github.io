@@ -4,9 +4,9 @@
 
 /* Ensure new content sections don't overlap */
 .column-content.uppercase {
-  display: block;
-  clear: both;
-  margin-top: 2rem;
+  display: block; !important;
+  clear: both; !important;
+  margin-top: 2rem; !important;
 }
 
 @media (max-width: 768px) {
