@@ -1,0 +1,17 @@
+/* custom.css */
+
+/*Joanna: created this file to resolve the overlapping problem in the blog file on the mobile*/
+
+/* Ensure new content sections don't overlap */
+.column-content.uppercase {
+  display: block;
+  clear: both;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .column-content.uppercase {
+    margin-top: 1.5rem;
+    text-align: center; /* optional */
+  }
+}
