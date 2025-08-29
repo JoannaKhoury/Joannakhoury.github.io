@@ -22,20 +22,4 @@ Text Domain: semplice
 
 
 */
-/*Joanna- Adding code to fix the blog overlapping on mobile
-/* custom.css */
 
-/* Ensure new content sections don't overlap */
-.column-content.uppercase {
-  display: block;
-  clear: both;
-  margin-top: 2rem;
-}
-
-@media (max-width: 768px) {
-  .column-content.uppercase {
-    margin-top: 1.5rem;
-    text-align: center; /* optional */
-  }
-}
-*/
